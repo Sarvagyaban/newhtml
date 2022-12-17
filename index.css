@@ -89,10 +89,12 @@ Navigation
 .navigation {
   height: 6rem;
   line-height: 6rem;
+  /* background-color: rgb(36, 13, 13); */
 }
 
 .nav-center {
   justify-content: space-between;
+  /* background-color: rgb(36, 13, 13); */
 }
 
 .nav-list .icons {
@@ -127,6 +129,13 @@ Navigation
   padding: 0 1rem;
   color: #555;
   position: relative;
+  border-radius: 25px; 
+}
+.icon :hover{
+  border-radius: 100px;
+  border: 2px solid #29d9d5;
+  background-color:#29d9d5; 
+  color: #000;
 }
 
 .icon:not(:last-child) {
@@ -1419,4 +1428,26 @@ footer .credit span{
 
 .back{
     background-color: #29d9d5;
+}
+.icon:hover{
+  color: #ff7800;
+}
+
+div.a1{
+  text-align: center;
+  color: rgb(36, 13, 13);
+  font-size: 50px;
+  background-color: #29d9d5;
+  margin: 50px;
+}
+
+div.b1{
+  text-align: center;
+  margin: 50px;
+}
+.aaa{
+  background-image: url("234.avif");
+  height: 0vh; 
+  width: 100vw;
+  background-repeat: no-repeat;
 }
